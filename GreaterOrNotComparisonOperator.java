@@ -14,12 +14,12 @@ public class GreaterOrNotComparisonOperator{
         num2=n.nextInt();
 
         //Check the given number is greater or less or equal to the preset value.
-        //If the user entered number is greater than the preset value than this part will be execute.
+        //If the user entered number is less than the preset value than this part will be execute.
         if(num2<num1){
             System.out.println(num1+ " is greater than "+num2);
         }
 
-        //If the user entered number is less than the preset value than this part will be executed.
+        //If the user entered number is greater than the preset value than this part will be executed.
         else if(num2>num1){
             System.out.println(num1+" is less than "+num2);
         }

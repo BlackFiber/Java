@@ -1,4 +1,3 @@
-package college_progamme;
 import java.util.Scanner;
 
 
